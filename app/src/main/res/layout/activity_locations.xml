@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Locations">
+
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="441dp"
+        android:layout_height="90dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@android:color/holo_green_dark" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="394dp"
+        android:layout_height="51dp"
+        android:text="Select a Location"
+        android:textColor="#FAFFFFFF"
+        android:textSize="36sp"
+        app:fontFamily="sans-serif-thin"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.56"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView3" />
+
+    <Button
+        android:id="@+id/BTNCalgary"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="408dp"
+        android:layout_height="80dp"
+        android:background="#00FFFFFF"
+        android:gravity="left|center_vertical"
+        android:text="   Calgary"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.333"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+
+    <Button
+        android:id="@+id/BTNEdmonton"
+        android:layout_width="408dp"
+        android:layout_height="80dp"
+        android:background="#00FFFFFF"
+        android:gravity="left|center_vertical"
+        android:text="   Edmonton"
+        android:textSize="18sp"
+        style="?android:attr/borderlessButtonStyle"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/BTNCalgary" />
+    <Button
+        android:id="@+id/BTNLethbridge"
+        android:layout_width="408dp"
+        android:layout_height="80dp"
+        android:background="#00FFFFFF"
+        android:gravity="left|center_vertical"
+        android:text="   Lethbridge"
+        android:textSize="18sp"
+        style="?android:attr/borderlessButtonStyle"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/BTNEdmonton" />
+    <Button
+        android:id="@+id/BTNMedicineHat"
+        android:layout_width="408dp"
+        android:layout_height="80dp"
+        android:background="#00FFFFFF"
+        android:gravity="left|center_vertical"
+        android:text="   Medicine Hat"
+        android:textSize="18sp"
+        style="?android:attr/borderlessButtonStyle"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/BTNLethbridge" />
+    <Button
+        android:id="@+id/BTNRedDeer"
+        android:layout_width="408dp"
+        android:layout_height="80dp"
+        android:background="#00FFFFFF"
+        android:gravity="left|center_vertical"
+        android:text="   Red Deer"
+        android:textSize="18sp"
+        style="?android:attr/borderlessButtonStyle"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/BTNMedicineHat" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="43dp"
+        android:layout_height="42dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginRight="12dp"
+        android:gravity="center_horizontal|center_vertical"
+        android:text=">"
+        android:textColor="#546AE4"
+        android:textSize="20sp"
+        app:fontFamily="sans-serif-condensed-medium"
+        app:layout_constraintBottom_toBottomOf="@+id/BTNCalgary"
+        app:layout_constraintEnd_toEndOf="@+id/BTNCalgary"
+        app:layout_constraintTop_toTopOf="@+id/BTNCalgary" />
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="43dp"
+        android:layout_height="42dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginRight="12dp"
+        android:gravity="center_horizontal|center_vertical"
+        android:text=">"
+        android:textColor="#546AE4"
+        android:textSize="20sp"
+        app:fontFamily="sans-serif-condensed-medium"
+        app:layout_constraintBottom_toBottomOf="@+id/BTNEdmonton"
+        app:layout_constraintEnd_toEndOf="@+id/BTNEdmonton"
+        app:layout_constraintTop_toTopOf="@+id/BTNEdmonton" />
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="43dp"
+        android:layout_height="42dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginRight="12dp"
+        android:gravity="center_horizontal|center_vertical"
+        android:text=">"
+        android:textColor="#546AE4"
+        android:textSize="20sp"
+        app:fontFamily="sans-serif-condensed-medium"
+        app:layout_constraintBottom_toBottomOf="@+id/BTNLethbridge"
+        app:layout_constraintEnd_toEndOf="@+id/BTNLethbridge"
+        app:layout_constraintTop_toTopOf="@+id/BTNLethbridge" />
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="43dp"
+        android:layout_height="42dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginRight="12dp"
+        android:gravity="center_horizontal|center_vertical"
+        android:text=">"
+        android:textColor="#546AE4"
+        android:textSize="20sp"
+        app:fontFamily="sans-serif-condensed-medium"
+        app:layout_constraintBottom_toBottomOf="@+id/BTNMedicineHat"
+        app:layout_constraintEnd_toEndOf="@+id/BTNMedicineHat"
+        app:layout_constraintTop_toTopOf="@+id/BTNMedicineHat" />
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="43dp"
+        android:layout_height="42dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginRight="12dp"
+        android:gravity="center_horizontal|center_vertical"
+        android:text=">"
+        android:textColor="#546AE4"
+        android:textSize="20sp"
+        app:fontFamily="sans-serif-condensed-medium"
+        app:layout_constraintBottom_toBottomOf="@+id/BTNRedDeer"
+        app:layout_constraintEnd_toEndOf="@+id/BTNRedDeer"
+        app:layout_constraintTop_toTopOf="@+id/BTNRedDeer" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

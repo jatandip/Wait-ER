@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/instructionBTN"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="118dp"
+        android:layout_height="30dp"
+        android:background="#00FFFFFF"
+        android:capitalize="none"
+        android:text="Tap to Begin"
+        android:textAllCaps="false"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.954" />
+
+
+    <Button
+        android:id="@+id/startBTN"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="380dp"
+        android:layout_height="702dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/logoMainIMAGEVIEW"
+        android:layout_width="268dp"
+        android:layout_height="257dp"
+        app:layout_constraintBottom_toBottomOf="@+id/startBTN"
+        app:layout_constraintEnd_toEndOf="@+id/startBTN"
+        app:layout_constraintStart_toStartOf="@+id/startBTN"
+        app:layout_constraintTop_toTopOf="@+id/startBTN"
+        app:srcCompat="@android:drawable/btn_dialog" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="283dp"
+        android:layout_height="22dp"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="Alberta Emergency Times App"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="#4B67FF"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/startBTN"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.096" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

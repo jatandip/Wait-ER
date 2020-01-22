@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RedDeerList">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="418dp"
+        android:layout_height="88dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@android:color/holo_green_dark" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="394dp"
+        android:layout_height="51dp"
+        android:text="Wait Times"
+        android:textColor="#FAFFFFFF"
+        android:textSize="36sp"
+        app:fontFamily="sans-serif-thin"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.56"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView" />
+
+    <Button
+        android:id="@+id/BTNRedDeerRegional"
+        android:layout_width="325dp"
+        android:layout_height="64dp"
+        android:background="#00FFFFFF"
+        android:gravity="left|center_vertical"
+        android:text="Red Deer Regional Hospital"
+        android:textSize="18sp"
+        style="?android:attr/borderlessButtonStyle"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+    <Button
+        android:id="@+id/BTNRedDeerInnisfail"
+        android:layout_width="325dp"
+        android:layout_height="64dp"
+        android:background="#00FFFFFF"
+        android:gravity="left|center_vertical"
+        android:text="Innisfail Health Centre"
+        android:textSize="18sp"
+        style="?android:attr/borderlessButtonStyle"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/BTNRedDeerRegional" />
+    <Button
+        android:id="@+id/BTNRedDeerLacombe"
+        android:layout_width="325dp"
+        android:layout_height="64dp"
+        android:background="#00FFFFFF"
+        android:gravity="left|center_vertical"
+        android:text="Lacombe Hospital"
+        android:textSize="18sp"
+        style="?android:attr/borderlessButtonStyle"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/BTNRedDeerInnisfail" />
+</androidx.constraintlayout.widget.ConstraintLayout>

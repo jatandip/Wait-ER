@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<issues format="5" by="lint 3.5.3">
+
+    <issue
+        id="DuplicateIds"
+        severity="Fatal"
+        message="Duplicate id `@+id/textView5`, already defined earlier in this layout"
+        category="Correctness"
+        priority="7"
+        summary="Duplicate ids within a single layout"
+        explanation="Within a layout, id&apos;s should be unique since otherwise `findViewById()` can return an unexpected view."
+        errorLine1="        android:id=&quot;@+id/textView5&quot;"
+        errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="C:\Users\Kishan Patel\Videos\Captures\EmergencyTime\app\src\main\res\layout\activity_locations.xml"
+            line="115"
+            column="9"/>
+        <location
+            file="C:\Users\Kishan Patel\Videos\Captures\EmergencyTime\app\src\main\res\layout\activity_locations.xml"
+            line="101"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="DuplicateIds"
+        severity="Fatal"
+        message="Duplicate id `@+id/textView5`, already defined earlier in this layout"
+        category="Correctness"
+        priority="7"
+        summary="Duplicate ids within a single layout"
+        explanation="Within a layout, id&apos;s should be unique since otherwise `findViewById()` can return an unexpected view."
+        errorLine1="        android:id=&quot;@+id/textView5&quot;"
+        errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="C:\Users\Kishan Patel\Videos\Captures\EmergencyTime\app\src\main\res\layout\activity_locations.xml"
+            line="129"
+            column="9"/>
+        <location
+            file="C:\Users\Kishan Patel\Videos\Captures\EmergencyTime\app\src\main\res\layout\activity_locations.xml"
+            line="101"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="DuplicateIds"
+        severity="Fatal"
+        message="Duplicate id `@+id/textView5`, already defined earlier in this layout"
+        category="Correctness"
+        priority="7"
+        summary="Duplicate ids within a single layout"
+        explanation="Within a layout, id&apos;s should be unique since otherwise `findViewById()` can return an unexpected view."
+        errorLine1="        android:id=&quot;@+id/textView5&quot;"
+        errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="C:\Users\Kishan Patel\Videos\Captures\EmergencyTime\app\src\main\res\layout\activity_locations.xml"
+            line="143"
+            column="9"/>
+        <location
+            file="C:\Users\Kishan Patel\Videos\Captures\EmergencyTime\app\src\main\res\layout\activity_locations.xml"
+            line="101"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="DuplicateIds"
+        severity="Fatal"
+        message="Duplicate id `@+id/textView5`, already defined earlier in this layout"
+        category="Correctness"
+        priority="7"
+        summary="Duplicate ids within a single layout"
+        explanation="Within a layout, id&apos;s should be unique since otherwise `findViewById()` can return an unexpected view."
+        errorLine1="        android:id=&quot;@+id/textView5&quot;"
+        errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="C:\Users\Kishan Patel\Videos\Captures\EmergencyTime\app\src\main\res\layout\activity_locations.xml"
+            line="157"
+            column="9"/>
+        <location
+            file="C:\Users\Kishan Patel\Videos\Captures\EmergencyTime\app\src\main\res\layout\activity_locations.xml"
+            line="101"
+            column="9"/>
+    </issue>
+
+</issues>

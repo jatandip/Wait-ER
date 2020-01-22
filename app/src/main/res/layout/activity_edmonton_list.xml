@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EdmontonList">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="418dp"
+        android:layout_height="88dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@android:color/holo_green_dark" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="394dp"
+        android:layout_height="51dp"
+        android:text="Wait Times"
+        android:textColor="#FAFFFFFF"
+        android:textSize="36sp"
+        app:fontFamily="sans-serif-thin"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.56"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView" />
+
+    <Button
+        android:id="@+id/BTNEdmontonFortSask"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="325dp"
+        android:layout_height="58dp"
+        android:background="#00FFFFFF"
+        android:gravity="left|center_vertical"
+        android:text="Fort Sask. Hospital"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <Button
+        android:id="@+id/BTNEdmontonGreyNuns"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="325dp"
+        android:layout_height="58dp"
+        android:background="#00FFFFFF"
+        android:gravity="left|center_vertical"
+        android:text="Grey Nuns Hospital"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/BTNEdmontonFortSask" />
+
+    <Button
+        android:id="@+id/BTNEdmontonLeduc"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="325dp"
+        android:layout_height="58dp"
+        android:background="#00FFFFFF"
+        android:gravity="left|center_vertical"
+        android:text="Leduc Hospital"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/BTNEdmontonGreyNuns" />
+
+    <Button
+        android:id="@+id/BTNEdmontonMisericordia"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="325dp"
+        android:layout_height="58dp"
+        android:background="#00FFFFFF"
+        android:gravity="left|center_vertical"
+        android:text="Misericordia Hospital"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/BTNEdmontonLeduc" />
+
+    <Button
+        android:id="@+id/BTNEdmontonNortheast"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="325dp"
+        android:layout_height="58dp"
+        android:background="#00FFFFFF"
+        android:gravity="left|center_vertical"
+        android:text="Northeast Health Centre"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/BTNEdmontonMisericordia" />
+
+    <Button
+        android:id="@+id/BTNEdmontonRoyalAlex"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="325dp"
+        android:layout_height="58dp"
+        android:background="#00FFFFFF"
+        android:gravity="left|center_vertical"
+        android:text="Royal Alexandra Hospital"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/BTNEdmontonNortheast" />
+
+    <Button
+        android:id="@+id/BTNEdmontonStollery"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="325dp"
+        android:layout_height="58dp"
+        android:background="#00FFFFFF"
+        android:gravity="left|center_vertical"
+        android:text="Stollery Children's Hospital"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/BTNEdmontonRoyalAlex" />
+
+    <Button
+        android:id="@+id/BTNEdmontonStrathcona"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="325dp"
+        android:layout_height="58dp"
+        android:background="#00FFFFFF"
+        android:gravity="left|center_vertical"
+        android:text="Strathcona Hospital"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/BTNEdmontonStollery" />
+
+    <Button
+        android:id="@+id/BTNEdmontonSturgeon"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="325dp"
+        android:layout_height="58dp"
+        android:background="#00FFFFFF"
+        android:gravity="left|center_vertical"
+        android:text="Sturgeon Hospital"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/BTNEdmontonStrathcona" />
+
+    <Button
+        android:id="@+id/BTNEdmontonUniversity"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="325dp"
+        android:layout_height="58dp"
+        android:background="#00FFFFFF"
+        android:gravity="left|center_vertical"
+        android:text="University of Alberta Hospital"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/BTNEdmontonSturgeon" />
+
+    <Button
+        android:id="@+id/BTNEdmontonWestview"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="325dp"
+        android:layout_height="58dp"
+        android:background="#00FFFFFF"
+        android:gravity="left|center_vertical"
+        android:text="Westview Health Centre"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/BTNEdmontonUniversity" />
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        app:layout_constraintBottom_toBottomOf="@+id/BTNEdmontonWestview"
+        app:layout_constraintEnd_toEndOf="@+id/BTNEdmontonStollery"
+        app:layout_constraintHorizontal_bias="0.045"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.317" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

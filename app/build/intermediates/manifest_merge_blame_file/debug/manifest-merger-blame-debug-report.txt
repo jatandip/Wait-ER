@@ -1,0 +1,107 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.emergencytime"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="15"
+8-->C:\Users\jatan\AndroidStudioProjects\EmergencyTime\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->C:\Users\jatan\AndroidStudioProjects\EmergencyTime\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\jatan\AndroidStudioProjects\EmergencyTime\app\src\main\AndroidManifest.xml:4:5-66
+11-->C:\Users\jatan\AndroidStudioProjects\EmergencyTime\app\src\main\AndroidManifest.xml:4:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->C:\Users\jatan\AndroidStudioProjects\EmergencyTime\app\src\main\AndroidManifest.xml:5:5-79
+12-->C:\Users\jatan\AndroidStudioProjects\EmergencyTime\app\src\main\AndroidManifest.xml:5:22-76
+13
+14    <uses-feature
+14-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\jatan\.gradle\caches\transforms-2\files-2.1\a3d702a77cbfacefb23de82416a0cb1f\play-services-maps-17.0.0\AndroidManifest.xml:26:5-28:35
+15        android:glEsVersion="0x00020000"
+15-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\jatan\.gradle\caches\transforms-2\files-2.1\a3d702a77cbfacefb23de82416a0cb1f\play-services-maps-17.0.0\AndroidManifest.xml:27:9-41
+16        android:required="true" />
+16-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\jatan\.gradle\caches\transforms-2\files-2.1\a3d702a77cbfacefb23de82416a0cb1f\play-services-maps-17.0.0\AndroidManifest.xml:28:9-32
+17
+18    <application
+18-->C:\Users\jatan\AndroidStudioProjects\EmergencyTime\app\src\main\AndroidManifest.xml:8:5-30:19
+19        android:allowBackup="true"
+19-->C:\Users\jatan\AndroidStudioProjects\EmergencyTime\app\src\main\AndroidManifest.xml:9:9-35
+20        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+20-->[androidx.core:core:1.1.0] C:\Users\jatan\.gradle\caches\transforms-2\files-2.1\e9dab9c67c1ee3668e0bbf86c6d8cbd8\core-1.1.0\AndroidManifest.xml:24:18-86
+21        android:debuggable="true"
+22        android:icon="@mipmap/ic_launcher"
+22-->C:\Users\jatan\AndroidStudioProjects\EmergencyTime\app\src\main\AndroidManifest.xml:10:9-43
+23        android:label="@string/app_name"
+23-->C:\Users\jatan\AndroidStudioProjects\EmergencyTime\app\src\main\AndroidManifest.xml:11:9-41
+24        android:roundIcon="@mipmap/ic_launcher_round"
+24-->C:\Users\jatan\AndroidStudioProjects\EmergencyTime\app\src\main\AndroidManifest.xml:13:9-54
+25        android:supportsRtl="true"
+25-->C:\Users\jatan\AndroidStudioProjects\EmergencyTime\app\src\main\AndroidManifest.xml:14:9-35
+26        android:testOnly="true"
+27        android:theme="@style/AppTheme"
+27-->C:\Users\jatan\AndroidStudioProjects\EmergencyTime\app\src\main\AndroidManifest.xml:15:9-40
+28        android:usesCleartextTraffic="true" >
+28-->C:\Users\jatan\AndroidStudioProjects\EmergencyTime\app\src\main\AndroidManifest.xml:12:9-44
+29        <activity android:name="com.example.emergencytime.hospitalInfo" />
+29-->C:\Users\jatan\AndroidStudioProjects\EmergencyTime\app\src\main\AndroidManifest.xml:16:9-50
+29-->C:\Users\jatan\AndroidStudioProjects\EmergencyTime\app\src\main\AndroidManifest.xml:16:19-47
+30        <activity android:name="com.example.emergencytime.RedDeerList" />
+30-->C:\Users\jatan\AndroidStudioProjects\EmergencyTime\app\src\main\AndroidManifest.xml:17:9-49
+30-->C:\Users\jatan\AndroidStudioProjects\EmergencyTime\app\src\main\AndroidManifest.xml:17:19-46
+31        <activity android:name="com.example.emergencytime.MHatList" />
+31-->C:\Users\jatan\AndroidStudioProjects\EmergencyTime\app\src\main\AndroidManifest.xml:18:9-46
+31-->C:\Users\jatan\AndroidStudioProjects\EmergencyTime\app\src\main\AndroidManifest.xml:18:19-43
+32        <activity android:name="com.example.emergencytime.LethbridgeList" />
+32-->C:\Users\jatan\AndroidStudioProjects\EmergencyTime\app\src\main\AndroidManifest.xml:19:9-52
+32-->C:\Users\jatan\AndroidStudioProjects\EmergencyTime\app\src\main\AndroidManifest.xml:19:19-49
+33        <activity android:name="com.example.emergencytime.EdmontonList" />
+33-->C:\Users\jatan\AndroidStudioProjects\EmergencyTime\app\src\main\AndroidManifest.xml:20:9-50
+33-->C:\Users\jatan\AndroidStudioProjects\EmergencyTime\app\src\main\AndroidManifest.xml:20:19-47
+34        <activity android:name="com.example.emergencytime.CalgaryList" />
+34-->C:\Users\jatan\AndroidStudioProjects\EmergencyTime\app\src\main\AndroidManifest.xml:21:9-49
+34-->C:\Users\jatan\AndroidStudioProjects\EmergencyTime\app\src\main\AndroidManifest.xml:21:19-46
+35        <activity android:name="com.example.emergencytime.Locations" />
+35-->C:\Users\jatan\AndroidStudioProjects\EmergencyTime\app\src\main\AndroidManifest.xml:22:9-47
+35-->C:\Users\jatan\AndroidStudioProjects\EmergencyTime\app\src\main\AndroidManifest.xml:22:19-44
+36        <activity android:name="com.example.emergencytime.MainActivity" >
+36-->C:\Users\jatan\AndroidStudioProjects\EmergencyTime\app\src\main\AndroidManifest.xml:23:9-29:20
+36-->C:\Users\jatan\AndroidStudioProjects\EmergencyTime\app\src\main\AndroidManifest.xml:23:19-47
+37            <intent-filter>
+37-->C:\Users\jatan\AndroidStudioProjects\EmergencyTime\app\src\main\AndroidManifest.xml:24:13-28:29
+38                <action android:name="android.intent.action.MAIN" />
+38-->C:\Users\jatan\AndroidStudioProjects\EmergencyTime\app\src\main\AndroidManifest.xml:25:17-69
+38-->C:\Users\jatan\AndroidStudioProjects\EmergencyTime\app\src\main\AndroidManifest.xml:25:25-66
+39
+40                <category android:name="android.intent.category.LAUNCHER" />
+40-->C:\Users\jatan\AndroidStudioProjects\EmergencyTime\app\src\main\AndroidManifest.xml:27:17-77
+40-->C:\Users\jatan\AndroidStudioProjects\EmergencyTime\app\src\main\AndroidManifest.xml:27:27-74
+41            </intent-filter>
+42        </activity>
+43        <!-- Needs to be explicitly declared on P+ -->
+44        <uses-library
+44-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\jatan\.gradle\caches\transforms-2\files-2.1\a3d702a77cbfacefb23de82416a0cb1f\play-services-maps-17.0.0\AndroidManifest.xml:33:9-35:40
+45            android:name="org.apache.http.legacy"
+45-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\jatan\.gradle\caches\transforms-2\files-2.1\a3d702a77cbfacefb23de82416a0cb1f\play-services-maps-17.0.0\AndroidManifest.xml:34:13-50
+46            android:required="false" />
+46-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\jatan\.gradle\caches\transforms-2\files-2.1\a3d702a77cbfacefb23de82416a0cb1f\play-services-maps-17.0.0\AndroidManifest.xml:35:13-37
+47
+48        <activity
+48-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\jatan\.gradle\caches\transforms-2\files-2.1\77c2fc448e2bd0738fd67dce062b1efd\play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+49            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+49-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\jatan\.gradle\caches\transforms-2\files-2.1\77c2fc448e2bd0738fd67dce062b1efd\play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+50            android:exported="false"
+50-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\jatan\.gradle\caches\transforms-2\files-2.1\77c2fc448e2bd0738fd67dce062b1efd\play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+51            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+51-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\jatan\.gradle\caches\transforms-2\files-2.1\77c2fc448e2bd0738fd67dce062b1efd\play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+52
+53        <meta-data
+53-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\jatan\.gradle\caches\transforms-2\files-2.1\7df2aa680f641a1d5547a39dfa6408a7\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+54            android:name="com.google.android.gms.version"
+54-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\jatan\.gradle\caches\transforms-2\files-2.1\7df2aa680f641a1d5547a39dfa6408a7\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+55            android:value="@integer/google_play_services_version" />
+55-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\jatan\.gradle\caches\transforms-2\files-2.1\7df2aa680f641a1d5547a39dfa6408a7\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+56    </application>
+57
+58</manifest>
